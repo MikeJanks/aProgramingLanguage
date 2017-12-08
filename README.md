@@ -5,6 +5,7 @@ Implements BNF rules and implements all 4 phases in a compiler: <br/>
 - Syntax Analyzer <br/>
 - Semantic Analyzer <br/>
 - Optimizer <br/>
+
 BNF rules: <br/>
 - Prog ::= StmtList <br/>
 - StmtList ::= { Stmt T_SC }{ StmtList } <br/>
